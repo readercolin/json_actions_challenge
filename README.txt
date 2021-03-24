@@ -14,6 +14,15 @@ The submission needs to be documented, tested, and organized
 
 -------------------------------
 
+This code was built to run using python 3.9.  It uses the python standard library, and has the following imports from that:
+json
+unittest
+threading
+
+The code is all tested on a Windows 10 machine, but should be able to run using another platform as well
+
+-------------------------------
+
 To solve this, I have the actions_challenge.py function, which has the class and the 2 functions that we want.  Then, I have testing.py, which contains all the unit tests for this code.
 
 addAction needs to be able to see if the new action already exists
